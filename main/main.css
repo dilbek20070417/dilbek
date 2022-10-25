@@ -1,0 +1,159 @@
+.container{
+    width: 1490px;
+    padding-left:25px ;
+    padding-right: 25px;
+    margin: auto;
+    
+}
+.header{
+    margin-top: 50px;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    margin-left: 110px;
+    margin-top: -44px;
+}
+
+.listnav{
+    display: flex;
+    align-items: center;
+    /* margin-top: -0px; */
+}
+.nav-item{
+    list-style: none;
+    padding-left: 32px;
+}
+
+.nav-link{
+text-decoration: none;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 25px;
+color: #939CAA;
+}
+.header-btn{
+    
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+background-color:  #FCB72B;
+padding: 10px 40px;
+text-decoration: none;
+}
+
+/* hero */
+
+.hero .container {
+    width: 1440px;
+    height: 665px;
+    background-image: url("../img/Bitmap.jpg");
+    background-repeat: no-repeat;
+    background-position: 29px;
+    margin-top: 50px;
+}
+
+.hero-item {
+    padding: 153px 180px;
+    width: 500px;
+}
+
+.hero-heading {
+width: 450px;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 56px;
+letter-spacing: -2.5px;
+color: #FFFFFF;
+margin-bottom: 40px;
+}
+
+.hero-text {
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+color: #FFFFFF;
+margin-bottom: 40px;
+}
+
+.img-hero-item {
+    position: absolute;
+    width: 170px;
+    height: 16px;
+    background-image: url("../img/iconkaa.svg");
+    background-repeat: no-repeat;
+    transform: translate(3px,380px) ;
+}
+
+.img-hero-iconka {
+    position: absolute;
+    width: 490px;
+    height: 150px;
+    background-image: url("../img/Group\ 8\ Copy.svg");
+    background-repeat: no-repeat;
+    transform: translate(716px, -262px);
+}
+
+/* about */
+
+
+.about {
+    margin-top: 70px;
+}
+
+.about-list {
+    display: flex;
+}
+
+.about-info {
+    list-style: none;
+    width: 360px;
+    margin: 30px;
+}
+
+.about-pic {
+    margin-bottom: 40px;
+}
+
+.about-heading {
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: -1.07143px;
+color: #495567;
+margin-bottom: 27px;
+}
+
+.about-text {
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+color: #939CAA;
+}
+
+
+
+.linya {
+    width: 925px;
+    border: 15px solid #E5ECF4;
+    transform: translate(-9px, 61px);
+    position: absolute;
+    z-index: -2;
+}
